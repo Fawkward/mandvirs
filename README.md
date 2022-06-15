@@ -1,1 +1,1 @@
-# mandrikavieus
+mandrika pidoras
