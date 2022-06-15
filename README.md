@@ -1,1 +1,1 @@
-mandrika pidoras
+# mandrikavie

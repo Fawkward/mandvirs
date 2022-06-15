@@ -17,7 +17,7 @@ void makeFile() {
 void music() {
     for (int i = 0; i < 10; i++)
     {
-        MessageBox(GetActiveWindow(), "inst: musical_history", "Мандрика", MB_ICONERROR);
+        MessageBox(GetActiveWindow(), "inst: musical_history", "Мандрика ебет твою мамку", MB_ICONERROR);
         MessageBox(GetActiveWindow(), "ты хочешь шобы артём трахнув твою маму ?", "Мандрика", MB_YESNO);
         MessageBox(GetActiveWindow(), "дослухай пісню підорас", "Мандрика", MB_YESNO);
     }
