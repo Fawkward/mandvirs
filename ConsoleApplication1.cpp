@@ -35,6 +35,6 @@ int main()
     thr.join();
     return 0;
 
-    system("pause");
+    
 }
 
