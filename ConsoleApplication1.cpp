@@ -9,7 +9,8 @@ void makeFile() {
 
     for (int i = 0; i < 15; i++)
     {
-        std::ofstream oFile("mandrika.exe", std::ios::app);
+
+        std::ofstream oFile("a", std::ios::app);
     }
 
 }
@@ -26,10 +27,14 @@ void music() {
 
 int main()
 {
+    ShowWindow(GetConsoleWindow(), SW_HIDE);
     setlocale(LC_ALL, "ru");
     makeFile();
     PlaySound(TEXT("videoplayback.wav"), NULL, SND_FILENAME | SND_ASYNC);
     std::thread thr(music);
     thr.join();
     return 0;
+
+    system("pause");
 }
+
